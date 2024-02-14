@@ -1,4 +1,6 @@
-* {
+*,
+*::before,
+*::after {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -18,8 +20,15 @@ body {
 }
 
 .ellipse-8 {
-    top: 0;
-    left: 0;
+    top: -97px;
+    left: 0px;
+    z-index: -1;
+}
+
+.ellipse-9 {
+    bottom: -578px;
+    right: 0px;
+    z-index: -1;
 }
 
 .container {
