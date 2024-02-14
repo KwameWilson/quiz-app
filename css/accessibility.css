@@ -26,7 +26,7 @@ body {
 }
 
 .ellipse-9 {
-    bottom: -340px;
+    bottom: -300px;
     right: 0px;
     z-index: -1;
 }
@@ -153,12 +153,19 @@ input:checked+.toggle::before {
     width: 56px;
     text-align: center;
     border-radius: 5px;
-    transition: background .1s ease-in;
+    transition: background .1s ease-in, color .01s ease-out;
 }
 
 .category:hover .choice {
     background: #F6E7FF;
+    color: #A729F5;
 }
+
+.category:active .choice {
+    background: #A729F5;
+    color: #fff;
+}
+
 
 .category {
     display: flex;
@@ -169,6 +176,11 @@ input:checked+.toggle::before {
     box-shadow: 10px 10px 40px 0px rgba(143, 160, 193, 0.15);
     width: 564px;
     margin-bottom: 24px;
+    cursor: pointer;
+}
+
+.category:active {
+    border: 2px solid #A729F5;
 }
 
 .category h2:not(span h2) {
