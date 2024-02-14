@@ -144,6 +144,16 @@ input:checked+.toggle::before {
 
 }
 
+
+.choice {
+    color: #626C7F;
+    background: #F4F6FA;
+    display: inline-block;
+    width: 56px;
+    text-align: center;
+    border-radius: 5px;
+}
+
 .category {
     display: flex;
     align-items: center;
@@ -155,10 +165,11 @@ input:checked+.toggle::before {
     margin-bottom: 24px;
 }
 
-.category h2 {
+.category h2:not(span h2) {
     font-size: 28px;
     font-weight: 500;
     margin-left: 32px;
+    border: 2px solid red;
 }
 
 .grid-right .category:last-child {
