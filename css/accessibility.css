@@ -76,6 +76,7 @@ body {
     height: 28px;
     border-radius: 20px;
     position: relative;
+    cursor: pointer;
 }
 
 .toggle::before {
@@ -152,6 +153,11 @@ input:checked+.toggle::before {
     width: 56px;
     text-align: center;
     border-radius: 5px;
+    transition: background .1s ease-in;
+}
+
+.category:hover .choice {
+    background: #F6E7FF;
 }
 
 .category {
@@ -169,9 +175,26 @@ input:checked+.toggle::before {
     font-size: 28px;
     font-weight: 500;
     margin-left: 32px;
-    border: 2px solid red;
 }
+
+
 
 .grid-right .category:last-child {
     margin-bottom: 0;
+}
+
+.submit {
+    border: 0;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 500;
+    background: #A729F5;
+    padding: 32px 180px;
+    text-wrap: nowrap;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background: #c577f5;
 }
