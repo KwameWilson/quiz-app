@@ -46,27 +46,21 @@ body {
 .category-mode>div>h2 {
     font-size: 28px;
     font-weight: 500;
-    /* border: 2px solid red; */
 }
 
 .category-mode>div:first-child {
-    /* border: 2px solid red; */
     display: flex;
     align-items: center;
     gap: 24px;
-    /* margin-bottom: 85px; */
 }
 
 .mode {
     align-content: center;
     display: flex;
     justify-content: space-between;
-    /* gap: 16px; */
     height: 28px;
     width: 128px;
     align-items: center;
-    /* margin-bottom: 100px; */
-    /* margin-left: 1032px; */
 }
 
 .toggle {
@@ -146,8 +140,6 @@ input:checked+.toggle::before {
 
 }
 
-
-
 .grid-right .error,
 .check-mark {
     position: absolute;
@@ -165,17 +157,6 @@ input:checked+.toggle::before {
     transition: background .1s ease-in, color .01s ease-out;
 }
 
-.category:hover .choice {
-    background: #F6E7FF;
-    color: #A729F5;
-}
-
-.category:active .choice {
-    background: #A729F5;
-    color: #fff;
-}
-
-
 .category {
     align-items: center;
     background: #fff;
@@ -190,28 +171,24 @@ input:checked+.toggle::before {
     width: 564px;
 }
 
+.category div {
+    margin-bottom: 40px;
+}
+
 .category div:first-child {
     display: flex;
     gap: 24px;
     align-items: center;
 }
 
-.category:active {
-    border: 2px solid #A729F5;
+.category h3 {
+    font-size: 144px;
 }
 
-/* .category h2:not(span h2) {
-    font-size: 28px;
-    font-weight: 500;
-    margin-left: 32px;
-    display: inline-block;
-} */
-
-
-
-/* .grid-right .category:last-child {
-    margin-bottom: 0;
-} */
+.category h4 {
+    font-size: 24px;
+    font-weight: 300;
+}
 
 .submit {
     border: 0;
@@ -223,6 +200,7 @@ input:checked+.toggle::before {
     text-wrap: nowrap;
     border-radius: 24px;
     cursor: pointer;
+    width: 100%;
 }
 
 .submit:hover {
