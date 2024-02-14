@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mode {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 16px; */
+    height: 28px;
+    width: 128px;
+    align-items: center;
+}
+
+.toggle {
+    background: #A729F5;
+    display: inline-block;
+    width: 48px;
+    height: 28px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.toggle::before {
+    content: '';
+    background: #fff;
+    border-radius: 10px;
+    height: 20px;
+    position: absolute;
+    margin: 4px;
+    width: 20px;
+    transition: .2s transform ease-in-out;
+}
+
+input[type='checkbox'] {
+    opacity: 0;
+    display: none;
+}
+
+input:checked+.toggle::before {
+    transform: translateX(100%);
+}
