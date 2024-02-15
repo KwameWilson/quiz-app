@@ -15,6 +15,10 @@ body {
     position: relative;
 }
 
+.dark-mode {
+    background-color: rgb(6, 12, 31);
+}
+
 .ellipse {
     position: absolute;
 }
@@ -109,6 +113,7 @@ input:checked+.toggle::before {
     box-shadow: 10px 10px 40px 0px rgba(143, 160, 193, 0.15);
     width: 564px;
     margin-bottom: 24px;
+    cursor: pointer;
 }
 
 .category h2 {
