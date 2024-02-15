@@ -8,20 +8,36 @@
 }
 
 body {
-    background: #f4f6fa;
-    color: #313E51;
     font-size: 28px;
     font-weight: 500;
     position: relative;
 }
 
 .dark-mode {
-    background-color: rgb(6, 12, 31);
+    background: #313E51;
+    background-image: url("../imgs/Ellipse-8-dark.svg"),
+        url("../imgs/Ellipse-9-dark.svg");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    color: #fff;
+}
+
+.light-mode {
+    background: #f4f6fa;
+    color: #313E51;
+}
+
+.dark-mode .category {
+    background: #3B4D66;
+    /* color: #fff; */
+    box-shadow: none;
 }
 
 .ellipse {
     position: absolute;
 }
+
+
 
 .ellipse-8 {
     top: -97px;
