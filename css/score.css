@@ -8,15 +8,13 @@
 }
 
 body {
-    background: #f4f6fa;
-    color: #313E51;
     font-size: 28px;
     font-weight: 500;
     position: relative;
     overflow: hidden;
 }
 
-.ellipse {
+/* .ellipse {
     position: absolute;
 }
 
@@ -30,7 +28,7 @@ body {
     bottom: -500px;
     right: 0px;
     z-index: -1;
-}
+} */
 
 .container {
     width: 1160px;

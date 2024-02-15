@@ -14,24 +14,6 @@ body {
     overflow: hidden;
 }
 
-.ellipse {
-    position: absolute;
-}
-
-
-
-.ellipse-8 {
-    top: -97px;
-    left: 0px;
-    z-index: -1;
-}
-
-.ellipse-9 {
-    bottom: -350px;
-    right: 0px;
-    z-index: -1;
-}
-
 .container {
     width: 1160px;
     margin: 97px auto 280px;
