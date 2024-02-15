@@ -1,0 +1,33 @@
+.dark-mode {
+    background: #313E51;
+    background-image: url("../imgs/Ellipse-8-dark.svg"),
+        url("../imgs/Ellipse-9-dark.svg");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    color: #fff;
+}
+
+.light-mode {
+    background: #f4f6fa;
+    background-image: url("../imgs/Ellipse-8.svg"),
+        url("../imgs/Ellipse-9.svg");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    color: #313E51;
+}
+
+.dark-mode .category {
+    background: #3B4D66;
+    /* color: #fff; */
+    box-shadow: 10px 10px 40px 0px rgba(28, 38, 66, 0.15);
+}
+
+.light-mode .category {
+    background: #fff;
+    /* color: #fff; */
+    box-shadow: 10px 10px 40px 0px rgba(143, 160, 193, 0.15);
+}
+
+.dark-mode .progress-bar {
+    background: #3B4D66;
+}
